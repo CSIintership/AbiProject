@@ -1,0 +1,39 @@
+.my-toggle {
+  background: transparent;
+  border: 0;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 0.75em;
+  font-weight: bold;
+  margin-right: 5px;
+  padding: 0;
+  text-transform: uppercase;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.my-toggle:hover,
+.my-toggle:focus {
+  background: transparent;
+  color: #FFF;
+  outline: transparent;
+  margin-right: 5px;
+}
+
+.hideShowPassword-toggle-hide {
+    text-decoration: line-through #ff0000;
+}
+
+.login-footer {
+  float:right;
+  margin-right:15px;
+  font-size:12px;
+  margin-bottom: 20px;
+  margin-top:-10px;
+}
+
+@media screen and (max-width: 420px) {
+.login-footer {
+margin-right:0px;
+}
+}
